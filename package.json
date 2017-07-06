@@ -1,0 +1,8 @@
+{
+  "name": "rhaegar",
+  "version": "1.0.0",
+  "description": "Regex",
+  "main": "index.js",
+  "author": "Blake Guilloud",
+  "license": "MIT"
+}
