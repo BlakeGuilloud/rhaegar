@@ -2,7 +2,7 @@
   "name": "rhaegar",
   "version": "1.0.1",
   "description": "Regex",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Blake Guilloud",
   "license": "MIT",
   "scripts": {
