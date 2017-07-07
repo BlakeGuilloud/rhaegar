@@ -1,6 +1,6 @@
 {
   "name": "rhaegar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Regex",
   "main": "index.js",
   "author": "Blake Guilloud",
