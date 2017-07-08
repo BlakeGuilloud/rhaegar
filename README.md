@@ -25,6 +25,14 @@ testEmail('ned@winterfell.com');
 testEmail('greyworm@yahoo');
 // => false
 
+const matchEmail = new Rhaegar({ pattern: 'email', method: 'match' });
+
+const matched = matchEmail('faceless_woman@bravos.si');
+// matched => [ 'faceless_woman@bravos.s', index: 0, input: 'faceless_woman@bravos.si' ]
+// matched[0] => 'faceless_woman@bravos.s';
+// matched.index => 0
+// matched.input => 'faceless_woman@bravos.s';
+
 const testDateTime = new Rhaegar({ pattern: 'dateTime' });
 
 testDateTime('30-11-2003 8:45');
