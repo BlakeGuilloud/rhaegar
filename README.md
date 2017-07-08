@@ -24,6 +24,14 @@ testEmail('ned@winterfell.com');
 
 testEmail('greyworm@yahoo');
 // => false
+
+const testDateTime = new Rhaegar({ pattern: 'dateTime' });
+
+testDateTime('30-11-2003 8:45');
+// => true
+
+testDateTime('11-2003 8:45');
+// => false
 ```
 
 ### Supported Patterns:

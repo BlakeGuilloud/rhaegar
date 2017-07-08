@@ -32,7 +32,7 @@ describe('DateTime', () => {
     done();
   });
 
-  it('Should return false on an invalid date time fromat', (done) => {
+  it('Should return false on an invalid date time format', (done) => {
     assert.equal(dateTime(''), false);
     assert.equal(dateTime('11-2003 8:45'), false);
     assert.equal(dateTime('5-12-2003 8'), false);
