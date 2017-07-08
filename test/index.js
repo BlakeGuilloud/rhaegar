@@ -9,7 +9,6 @@ describe('Email', () => {
     assert.equal(email('faceless_brunette@gmail.com'), true);
     assert.equal(email('a@b.c'), true);
     assert.equal(email('jorah@mormont tyrion@kingslanding.com'), true)
-    assert.equal(email('a@b.c', 'match')[0], 'a@b.c');
     done();
   });
 
@@ -21,7 +20,7 @@ describe('Email', () => {
     assert.equal(email('shireen.com'), false);
     assert.equal(email('@reed.com'), false);
     done();
-  })
+  });
 });
 
 describe('DateTime', () => {
@@ -38,7 +37,7 @@ describe('DateTime', () => {
     assert.equal(dateTime('11-2003 8:45'), false);
     assert.equal(dateTime('5-12-2003 8'), false);
     done();
-  })
+  });
 });
 
 describe('NotBinary', () => {
@@ -57,7 +56,7 @@ describe('NotBinary', () => {
     assert.equal(notBinary('120010'), true);
     assert.equal(notBinary('3'), true);
     done();
-  })
+  });
 });
 
 describe('AlphaNumeric', () => {
@@ -76,7 +75,7 @@ describe('AlphaNumeric', () => {
     assert.equal(alphaNumeric(' '), false);
     assert.equal(alphaNumeric('Do you deny me?'), false);
     done();
-  })
+  });
 });
 
 describe('Alpha', () => {
@@ -96,7 +95,7 @@ describe('Alpha', () => {
     assert.equal(alpha(' '), false);
     assert.equal(alpha('3'), false);
     done();
-  })
+  });
 });
 
 describe('Numeric', () => {
@@ -116,5 +115,5 @@ describe('Numeric', () => {
     assert.equal(numeric(' '), false);
     assert.equal(numeric('Meow3'), false);
     done();
-  })
+  });
 });
