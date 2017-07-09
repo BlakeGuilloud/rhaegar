@@ -3,30 +3,30 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    rhaegar: [path.join(__dirname, './lib/index.js')]
+    rhaegar: [path.join(__dirname, './lib/index.js')],
   },
   output: {
     path: path.join(__dirname, './dist'),
     filename: '[name].min.js',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   module: {
-    loaders: [{ loader: 'babel-loader', exclude: [/node_modules/] }]
+    loaders: [{ loader: 'babel-loader', exclude: [/node_modules/] }],
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js'],
   },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
+        NODE_ENV: JSON.stringify('production'),
+      },
     }),
     new webpack.optimize.UglifyJsPlugin({
       minimize: true,
       compress: {
-        warnings: false
-      }
-    })
-  ]
+        warnings: false,
+      },
+    }),
+  ],
 };
