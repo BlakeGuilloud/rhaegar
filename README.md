@@ -31,7 +31,7 @@ const matched = matchEmail('faceless_woman@bravos.si');
 // matched => [ 'faceless_woman@bravos.s', index: 0, input: 'faceless_woman@bravos.si' ]
 // matched[0] => 'faceless_woman@bravos.s';
 // matched.index => 0
-// matched.input => 'faceless_woman@bravos.s';
+// matched.input => 'faceless_woman@bravos.si';
 
 const testDateTime = new Rhaegar({ pattern: 'dateTime' });
 
