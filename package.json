@@ -23,7 +23,7 @@
     "webpack": "^3.1.0"
   },
   "lint-staged": {
-    "*.js": [
+    "lib/*.js": [
       "prettier --write",
       "git add"
     ]
