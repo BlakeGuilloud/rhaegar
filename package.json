@@ -23,7 +23,7 @@
     "webpack": "^3.1.0"
   },
   "lint-staged": {
-    "*/*.js": [
+    "*.js": [
       "prettier --single-quote --write",
       "git add"
     ]
