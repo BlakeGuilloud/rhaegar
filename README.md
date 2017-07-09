@@ -1,4 +1,6 @@
-## rhaegar [![Build Status](https://travis-ci.org/BlakeGuilloud/rhaegar.svg?branch=master)](https://travis-ci.org/BlakeGuilloud/rhaegar)
+# rhaegar
+[![Build Status](https://travis-ci.org/BlakeGuilloud/rhaegar.svg?branch=master)](https://travis-ci.org/BlakeGuilloud/rhaegar) [![NPM version](https://img.shields.io/npm/v/rhaegar.svg)](https://www.npmjs.com/package/rhaegar)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](#badge)
 
 
 #### A lightweight, zero dependency javascript library for dealing with regular expressions.
@@ -7,9 +9,8 @@
 ### Installation:
 ```
 $ yarn add rhaegar
-
-or
-
+```
+```
 $ npm install rhaegar --save
 ```
 
