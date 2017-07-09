@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "prettify": "prettier --single-quote --write '**/*.js'",
+    "prettify": "prettier --single-quote --trailing-comma all --write '**/*.js'",
     "test": "yarn run build && mocha --compilers js:babel-register"
   },
   "devDependencies": {
