@@ -1,7 +1,7 @@
 {
   "name": "rhaegar",
   "version": "1.0.8",
-  "description": "Regex",
+  "description": "Proof of concept Regex library",
   "main": "dist/rhaegar.min.js",
   "author": "Blake Guilloud",
   "license": "MIT",
